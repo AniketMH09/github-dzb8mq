@@ -27,7 +27,8 @@
       <td><input type="number"  value="{{item.quantity}}" (change)="chnageQuan(item,$event);" class="cart_input" min="1" max="10"></td>
       <td><button type="button" class="btn btn-link cancle" (click)='delet(item)'>X</button></td>
     </tr>
-    <tr><td></td><td class="total">TOTAL</td><td class="total">₹{{total}}</td><td></td><td><button type="button" class="btn btn-dark">UPDATE CART</button></td></tr>
+    <tr><td></td><td class="total">TOTAL</td><td class="total">₹{{total}}</td><td></td>
+    <td><a routerLink="/checkout"><button type="button" class="btn btn-dark checkout">PROCEED TO CHECKOUT</button></a></td></tr>
   </tbody>
 </table>
    </div>

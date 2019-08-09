@@ -19,6 +19,7 @@ import { AgmCoreModule } from '@agm/core';
 
 import { MainService } from './services/main.service';
 import { CartComponent } from './components/cart/cart.component';
+import { CheckoutComponent } from './components/checkout/checkout.component';
 
 const appRoutes: Routes = [
   {path: '', component: HomeComponent},
@@ -30,7 +31,8 @@ const appRoutes: Routes = [
     {path: ':id', component: FoodsComponent}
   ]},
   {path: 'contact', component: ContactComponent},
-  {path: 'cart', component: CartComponent}
+  {path: 'cart', component: CartComponent},
+  {path: 'checkout', component: CheckoutComponent}
 ];
 
 @NgModule({
@@ -44,7 +46,8 @@ const appRoutes: Routes = [
     ShopComponent,
     FoodsComponent,
     ContactComponent,
-    CartComponent
+    CartComponent,
+    CheckoutComponent
   ],
   imports: [
     BrowserModule,
