@@ -1,0 +1,83 @@
+.main_page_class {
+  width: 100%;
+  height: 100%;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.home {
+  height: 360px;
+  width: 100%;
+  background-image: url('https://cdn.demos.pixelgrade.com/wp-content/uploads/sites/5/2014/06/shop-featured1.jpg');
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.brand_name {
+    height: 380px;
+    margin-left: 30px;
+    margin-right: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+  }
+
+  .brand_name_welcome {
+    font-family: 'Herr Von Muellerhoff', cursive;
+    font-weight: normal;
+    font-size: 100px;
+    color: rgb(197, 157, 95);
+    
+  }
+
+  .brand_name_contain_name {
+      letter-spacing: 9.4px;
+      color: white;
+      font-weight: 900;
+      font-size: 47px;
+      margin-top: -60px;
+  }
+
+  .line {
+     border-bottom: 1px solid whitesmoke;
+     width: 330px;
+   }
+
+   .brand_name_contain_name2 {
+      color: white;
+      font-weight: 400;
+      font-size: 15px;
+      margin-top: 5px;
+  }
+  .main_top {
+    width: 1177px;
+    margin: 80px;
+  }
+
+  .nav-link {
+    font-family: Source Sans Pro;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #262526;
+    font-size: 1.5rem;;
+    line-height: 1.51;
+    margin: 10px;
+    margin-top: -10px;
+    
+  }
+  .active {
+    color: #C59D5F;
+    border-bottom: 3px solid #c59d5f;
+  }
+
+  .nav-link:hover {
+    color: #C59D5F;
+    border-bottom: 3px solid #c59d5f;
+  } 
+   .food-list {
+     margin-top: 40px;
+   }

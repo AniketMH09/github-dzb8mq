@@ -1,0 +1,313 @@
+.main_page_class {
+  width:  100%;
+  height: 100%;
+  padding-left: 10px;
+  padding-right: 10px;
+  
+}
+
+.home {
+  height:310px;
+  width: 100%;
+  background-image: url('https://cdn.demos.pixelgrade.com/wp-content/uploads/sites/5/2014/05/treat-yo-self34836_words_done.jpg');
+  background-position: center;
+  background-attachment: fixed;
+  background-size: 100%;
+  margin-right: 0px;
+
+}
+
+.brand_name {
+    height: 310px;
+    margin-left: 00px;
+    margin-right: 00px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+
+  }
+
+  .brand_name_box {
+    width: 170px;
+  }
+
+  .brand_name_contain {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    bottom: 50%;
+    right: 50%;
+    transform: translate(-50% -50%);
+  }
+
+  .brand_name_contain_welcome {
+    color: rgb(197, 157, 95);
+    font-family: Herr Von Muellerhoff;
+  }
+  .brand_name_contain_welcome h2 {
+     font-family: Herr Von Muellerhoff;
+  }
+
+  .brand_name_contain_rest {
+    color: white;
+    text-align: center;
+    width: 100%;
+      }
+
+
+
+  .brand_name_contain_rest_line{
+     display: flex;
+     flex-direction: row;
+     border-bottom: 1px solid white;
+     width: 180px;
+  }
+
+  .brand_name_contain_name {
+      letter-spacing: 9.4px;
+      color: white;
+      font-weight: 900;
+      font-size: 47px;
+      margin-top: -30px;
+  }
+
+  .exbtn button {
+   font-size: 12px;
+   letter-spacing: 2.4px;
+   margin-top: 5px;
+  }
+
+  .line {
+     border-bottom: 1px solid whitesmoke;
+     width: 390px;
+   }
+
+   .brand_name_welcome {
+    font-family: 'Dancing Script', cursive;
+    font-size: 100px;
+    color: rgb(197, 157, 95);
+    font-weight: 900;
+    margin-top: -60px;
+  }
+
+  .brand_name_contain_name2 {
+      letter-spacing: 0.0px;
+      color: white;
+      font-weight: 400;
+      font-size: 16px;
+      margin-top: 5px;
+  }
+
+/*
+reservation
+*/
+
+.reservation_data {
+  height: 360px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.res_titel {
+  font-family: "Source Sans Pro";
+  font-size: 19px;
+  letter-spacing: 1.9px;
+  font-weight: 500;
+}
+
+.res_title2 {
+  font-family: cabin;
+  font-size: 10px;
+  opacity: 0.45;
+  font-weight: 400;
+}
+
+.fb {
+      color:black;
+      border: 1px solid white;
+      padding-left: 2px;
+      padding-right: 2px;
+      background-color: white;
+  
+    }
+
+    .tw {
+      padding-left: 10px;
+    }
+/*menu list*/
+
+.container {
+  margin-top: 90px;
+}
+
+.menu_info {
+  font-size: 16px;
+  line-height: 1.7;
+  font-family: cabin;
+}
+.starts {
+  font-family: Source Sans Pro;
+  font-weight: 500;
+  letter-spacing: 0.1em;
+  margin-top: 42px;
+  font-size: 2rem;
+    line-height: 1.135;
+}
+
+.seprator {
+  border-color: #51515137;
+  margin: 36px 0;
+  border-bottom: 2px solid #d8d8d8;
+}
+
+.test {
+  position: absolute; 
+    right: 19px;
+    font-size: 1.4rem;
+    line-height: 1.27316;
+    font-weight: bold;
+}
+
+.menu_item_title {
+  font-family: Source Sans Pro;
+  font-weight: 500;
+  letter-spacing: 2px;;
+  font-size: 25px;
+  color: #252525;
+  line-height: 1.27316;
+}
+
+.ingradients {
+  line-height: 1.7;
+      font-size: 16px;
+      color: #515151;
+      font-family: Cabin;
+}
+
+.menu_item {
+  margin-bottom: 25px;
+  
+}
+
+.special {
+  position: absolute;
+  contain: '';
+    border: 2.5px solid #c59d5f;
+    height: 79px;
+    width: 100%;
+    left: -15px;
+    
+    
+}
+
+.wrapper {
+  position: relative;
+  top: -3px;
+  left: -28px;
+  width: 100px;
+  background-color: #c59d5f;
+  color: white;
+  font-size: 13px;
+  text-transform: uppercase;
+    letter-spacing: 0.250em;
+
+
+}
+
+.lunch {
+  height: 270px;
+  background-image: url('https://cdn.demos.pixelgrade.com/wp-content/uploads/sites/5/2014/06/901051_604137032930766_812725153_o.jpg');
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  margin-top: 70px;
+  margin-bottom: 70px;
+  text-align: center;
+      font-family: Source Sans Pro;
+          color: #FFFFFF;
+         letter-spacing: 0.2em;
+    opacity: 0.964146;
+    font-weight: 900;
+    font-size: 2.9375rem;
+    padding-top: 100px;
+    line-height: 1.03128;
+
+}
+.lunch2 {
+  height: 270px;
+  background-image: url('https://cdn.demos.pixelgrade.com/wp-content/uploads/sites/5/2014/06/1273345_656262674384868_338530104_o.jpg');
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  margin-top: 70px;
+  margin-bottom: 70px;
+  text-align: center;
+      font-family: Source Sans Pro;
+          color: #FFFFFF;
+         letter-spacing: 0.2em;
+    opacity: 0.964146;
+    font-weight: 900;
+    font-size: 2.9375rem;
+    padding-top: 100px;
+    line-height: 1.03128;
+
+}
+
+.lunch3 {
+  height: 270px;
+  background-image: url('https://cdn.demos.pixelgrade.com/wp-content/uploads/sites/5/2014/06/893942_583789211632215_1377313419_o.jpg');
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  margin-top: 70px;
+  margin-bottom: 70px;
+  text-align: center;
+      font-family: Source Sans Pro;
+          color: #FFFFFF;
+         letter-spacing: 0.2em;
+    opacity: 0.964146;
+    font-weight: 900;
+    font-size: 2.9375rem;
+    padding-top: 100px;
+    line-height: 1.03128;
+
+}
+
+.champagne {
+    height: 144px;
+    width: 91%;
+    background-color:  rgb(197, 157, 95);
+    margin-left: 40px;
+    text-align: center;
+    margin-bottom: 30px;
+    padding-left: 54px;
+    padding-right: 54px;
+    padding-top: 36px;
+    padding-bottom: 36px;
+    color: white;
+  }
+
+  .champagne_title {
+    font-family: Source Sans Pro;
+    font-size: 19px;
+    font-weight: 500;
+    letter-spacing: 1.9px;
+    line-height: 24px;
+  }
+  .hampagne_text {
+    font-family: cabin;
+    font-size: 16px;
+    line-height: 27px;
+    margin-top: 15px;
+  }

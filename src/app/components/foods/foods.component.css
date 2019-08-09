@@ -1,0 +1,54 @@
+.card {
+  width: 364px;
+  height: 498px;
+  margin-bottom: 70px;
+  border: none;
+  text-align: center;
+  cursor: pointer;
+  position: relative;
+  
+  pointer-events: auto;
+}
+
+.card-title {
+  color: #252525;
+  font-family: Source Sans Pro;
+  font-weight: 500;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  font-size: 1.1875rem;
+  line-height: 1.27316;
+}
+
+.card-text {
+  font-size: 13px;
+  font-weight: normal;
+  text-transform: uppercase;
+  color: #b3b3b3;
+  line-height: 1.7;
+  word-spacing: 5px;
+}
+
+.price {
+  font-size: 19px !important;
+  font-weight: 400;
+  color: #C59D5F;
+  cursor: pointer;
+}
+.btn {
+  display: none;
+}
+
+.card:hover .btn{
+   display: inline-block;  
+}
+
+.btn:hover {
+  color: #C59D5F;
+  border-bottom: 2px solid #C59D5F;
+}
+
+.card:hover .price{
+   display: none;  
+   
+}

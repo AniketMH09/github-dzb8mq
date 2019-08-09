@@ -1,0 +1,37 @@
+<nav class="navbar navbar-expand-lg" [style.background-color]="myColorVaraible">
+  <a class="navbar-brand" [style.color]="myColor" href="#">HEAVEN</a>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item">
+        <a class="nav-link" routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}"[style.color]="myColor"><span>HOME</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLink="/reservation" routerLinkActive="active"  [style.color]="myColor"><span>RESERVATIONS</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLink="/menu" routerLinkActive="active"  [style.color]="myColor"><span>MENU</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLink="/shop" routerLinkActive="active"  [style.color]="myColor"><span>SHOP</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLink="/contact" routerLinkActive="active" [style.color]="myColor"><span>CONTACT</span></a>
+      </li>
+      
+   
+      <li class="nav-item">
+        <a class="nav-link social_icon" href="#"><span class="fa fa-facebook fb"></span></a>
+        <a class="nav-link social_icon" href="#"><span class="fa fa-twitter tw" [style.color]="myColor"></span></a>
+        <a class="nav-link social_icon" href="#"><span class="fa fa-instagram tw" [style.color]="myColor"></span></a>
+      </li>
+      <span class="cart-count">{{cart_count}}</span>
+      <div class="nav-link social_icon cart"  routerLink="/cart" href="#"><a><i class="fa fa-shopping-cart" [style.color]="myColor"></i></a><span class="cart-menu" [style.color]="myColor" [style.background-color] ='menu_bgc'>
+        <div>₹{{total}}</div>
+        <a href="#" [style.color]="myColor">View Cart</a>
+        <a href="#" [style.color]="myColor">Checkout</a>
+      </span></div>
+
+      
+    </ul>
+  </div>
+</nav>

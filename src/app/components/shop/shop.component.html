@@ -1,0 +1,39 @@
+<div class="main_page_class">
+  <div class="home">
+     <app-navbar [value] = 4></app-navbar>
+     <div class="brand_name">
+        <div class="brand_name_welcome">Discover</div>
+        <div class="brand_name_contain_name">ORDER ONLINE</div>
+        <div class="line"></div>
+        <div class="brand_name_contain_name2">Hand-crafted dishes sourced from the best ingredients.</div>
+       </div>
+  </div>
+
+  <!------------------------------------------------------------------------------------------>
+ <div class="main_top"> 
+  <div class="main">
+    <div class="main_nav">
+            <ul class="nav justify-content-center">
+              <li class="nav-item">
+                <a class="nav-link" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}" routerLink="/shop"><span>ALL PRODUCT</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" routerLinkActive="active" routerLink="/shop/2"><span>MAINS</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link"  routerLinkActive="active" routerLink="/shop/3"><span>SALADS</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" routerLinkActive="active" routerLink="/shop/4"><span>STARTERS</span></a>
+             </li>
+           </ul>
+   </div>
+</div>
+  <!------------------------------------------------------------------------------------------>
+  <div class="food-list">
+  <router-outlet></router-outlet>
+  </div>
+  </div>
+  <!------------------------------------------------------------------------------------------>
+  <app-footer></app-footer>
+</div>

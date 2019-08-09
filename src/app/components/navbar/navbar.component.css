@@ -1,0 +1,148 @@
+nav {
+  position: fixed;
+  z-index: 2;
+  width: 100%;
+  margin-top: 0px;
+}
+
+nav_scroll {
+  background-color: rgb(252, 58, 58);
+}
+.mr-auto {
+  margin-left: 180px;
+  margin-top: 15px;
+}
+.nav-link {
+  color: white;
+  margin-left: 40px;
+  font-family: cabin;
+  font-size: 15px;
+}
+.nav-link_scroll {
+  color: black;
+  margin-left: 40px;
+  font-family: cabin;
+  font-size: 15px;
+}
+
+.navbar-brand {
+  color: white;
+  font-size: 32px;
+  cursor: pointer;
+  text-decoration: underline;
+  letter-spacing: 4.7px;
+  margin-top: 10px;
+}
+
+.navbar-brand_scroll {
+  color: black;
+  font-size: 32px;
+  cursor: pointer;
+  text-decoration: underline;
+  letter-spacing: 4.7px;
+  margin-top: 10px;
+}
+
+
+.costum {
+  margin-left: 0px;
+  margin-right: 0px;
+  width: 100%;
+  padding-left: 74px;
+  padding-right: 74px;
+ 
+}
+
+.social_icon {
+  display: inline;
+  margin-right: -30px;
+}
+
+.fb {
+      color:black;
+      border: 1px solid white;
+      padding-left: 2px;
+      padding-right: 2px;
+      background-color: white;
+      margin-top: 10px;
+    }
+
+.tw {
+      color: white;
+      
+      padding-right: 2px;
+      margin-top: 10px;
+    }
+
+    a :hover {
+      color: #c59d5f;
+    }
+
+.end{
+  background-color: white;
+  color: black;
+}
+
+.start {
+  
+  color: black;
+}
+
+.cart-count {
+    background-color: #C59D5F;
+    position: absolute;
+    right: 220px;
+    bottom: 3px;
+    width: 16px;
+    height: 16px;
+    font-size: 10px;
+    line-height: 16px;
+    text-align: center;
+    color: white;
+    top: 30px;
+    border-radius: 50%;
+}
+
+.cart-menu {
+  
+    font-family: Cabin;
+    height: 100%;
+    position: absolute;
+    left: 1080px;
+    top: 60px;
+    width: 100px;
+    text-align: center;
+    display: none;
+}
+
+.cart-menu a {
+  display: block;
+  color: white;
+  margin-top: 10px;
+  letter-spacing: 1px;
+      font-size: 13px;
+      font-family: Cabin;
+    font-weight: normal;
+    padding: 0px;
+    line-height: 1.72429;
+    transition: color .2s linear;
+  /* display: none; */
+}
+
+.cart:hover .cart-menu {
+ display: block;
+
+}
+.cart a {
+  cursor: pointer;
+}
+
+.cart-menu a:hover {
+  color: #C59D5F;
+  text-decoration: none;
+}
+
+.active {
+    color: #C59D5F;
+    border-bottom: 3px solid white;
+  }

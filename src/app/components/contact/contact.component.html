@@ -1,0 +1,65 @@
+<div class="main_page_class">
+   
+   
+   <div class="home">
+      <app-navbar [value] = 5></app-navbar>
+      <div class="brand_name">
+        <div class="brand_name_welcome">Find us</div>
+        <div class="brand_name_contain_name">CONTACT</div>
+       </div>
+   </div>
+
+   <div class="form_contact">
+       <div class="row">
+          <div class="col-6">
+             <div class="flex-container">
+                <div class="contact_title">GET IN TOUCH</div>
+                <div class="contact_para">The Rosa’s restaurant and bar are located on the ground and first floor within the Winchester Grade VI listed building of the Royal Institution of Chartered Surveyors. The restaurant and bar both have their own entrances.</div>
+                <div class="contact_para">If you have questions or comments, please get a hold of us in whichever way is most convenient.Ask away. There is no reasonable question that our team can not answer</div>
+                <div class="contact_title">FOLLOW US</div>
+                <div><span class="contact_symbol">f</span><span class="contact_symbol">t</span></div>
+             </div>
+          </div>
+          <div class="col-6">
+            <form (ngSubmit)="f.form.valid && onSubmit(f)" #f="ngForm" novalidate name="form">
+              <div class="form-group">
+                <label for="exampleInputEmail1">Your Name (required)</label>
+                <input type="email"class="form-control"id="exampleInputEmail1"aria-describedby="emailHelp" required
+                name="name" [(ngModel)]="formData.name" #name="ngModel">
+                <div *ngIf='f.submitted && name.invalid' class="error-note">The field is required.</div>
+                
+              </div>
+              <div class="form-group">
+                <label for="exampleInputEmail1">Your Email (required)</label>
+                <input type="email"class="form-control"id="exampleInputEmail1"aria-describedby="emailHelp" required email
+                name="email" [(ngModel)]="formData.email" #email="ngModel">
+                <div *ngIf='f.submitted && email.invalid' class="error-note">Enter a valid Emial.</div>
+                
+              </div>
+              <div class="form-group">
+                <label for="exampleInputEmail1">Subject</label>
+                <input type="email"class="form-control"id="exampleInputEmail1"aria-describedby="emailHelp"
+                name="subject" [(ngModel)]="formData.subject" #subject="ngModel">
+                
+              </div>
+              <div class="form-group">
+                <label for="exampleInputEmail1">Your Message</label>
+                <input type="email"class="form-control msg"id="exampleInputEmail1"aria-describedby="emailHelp"
+                name="message" [(ngModel)]="formData.message" #message="ngModel">
+                
+              </div>
+              <button type="submit" class="btn btn-dark">SEND</button>
+            </form>
+          </div>
+       </div> 
+   </div>
+   <div class="map_class">
+     <agm-map [latitude]="lat" [longitude]="lng">
+             <agm-marker [latitude]="lat" [longitude]="lng"></agm-marker>
+    </agm-map>
+   </div>
+
+   <app-footer></app-footer>
+    
+</div>  
+ 

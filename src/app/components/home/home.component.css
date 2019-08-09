@@ -1,0 +1,212 @@
+.main_page_class {
+  width: 100%;
+  height: 100%;
+  padding-left: 10px;
+  padding-right: 10px;
+  
+}
+
+.home {
+  height: 625px;
+  width: 100%;
+  background-image: url('https://cdn.demos.pixelgrade.com/wp-content/uploads/sites/5/2014/05/holiday2013_front.jpg');
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.brand_name {
+    height: 450px;
+    margin-left: 30px;
+    margin-right: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+  }
+
+  .brand_name_welcome {
+    font-family: 'Herr Von Muellerhoff', cursive;
+    font-weight: normal;
+    font-size: 100px;
+    color: rgb(197, 157, 95);
+    margin-top: 140px;
+    
+  }
+
+  .brand_name_contain_name {
+      letter-spacing: 9.4px;
+      color: white;
+      font-weight: 900;
+      font-size: 47px;
+      margin-top: -60px;
+  }
+
+  .line {
+     border-bottom: 1px solid whitesmoke;
+     width: 230px;
+   }
+
+   .brand_name_contain_name2 {
+      letter-spacing: 4.85px;
+      color: white;
+      font-weight: 400;
+      font-size: 15px;
+      margin-top: 5px;
+  }
+
+  exbtn button {
+   font-size: 12px;
+   letter-spacing: 2.4px;
+   margin-top: 5px;
+  }
+  .article_contain {
+    height: 430px;
+    padding-top: 78px;
+    padding-bottom: 78px;
+  }
+
+  .vertical_image1 {
+    background-image: url('https://cdn.demos.pixelgrade.com/wp-content/uploads/sites/5/2014/05/vertical-photo-1.jpg');
+    background-position: center;
+    width: 40%;
+    height: 100%;
+    display: inline-block;
+    margin-left: 25px;
+    background-size: cover;
+  }
+  .vertical_image2 {
+    background-image: url('https://cdn.demos.pixelgrade.com/wp-content/uploads/sites/5/2014/05/vertical-photo-2.jpg');
+    background-position: center;
+    width: 40%;
+    height: 100%;
+    display: inline-block;
+    margin-left: 15px;
+    background-size: cover;
+  }
+    .story {
+    text-align: center;
+      }
+
+   .story_1 {
+     font-family: 'Dancing Script', cursive;
+     color: rgb(197, 157, 95);
+     font-size: 100px;
+     font-weight: 400;
+   }
+   .story_2 {
+     font-family: 'Source Sans Pro', sans-serif;
+     font-size: 47px;
+     font-weight: 900;
+     letter-spacing: 9.4px;
+     position: relative;
+     z-index: 1;
+     bottom: 50px;
+   }
+   .story_3 {
+     font-family: cabin;
+     font-size: 16px;
+     font-weight: 400;
+     margin-top: -35px;
+     padding-left: 30px;
+     padding-right: 30px;
+   }
+
+   .story_4 {
+     margin-top: 20px;
+   }
+   .story_4 a{
+     cursor: pointer;
+     color: rgb(197, 157, 95);
+     font-family: cabin;
+     font-size: 15px;
+
+   }
+
+   .story_5 {
+     color: rgb(197, 157, 95);
+     border-bottom: 2px solid rgb(197, 157, 95);
+     width: 83px;
+     align-self: center;
+     margin-left: 285px;
+   }
+
+   .three_img {
+  background-image: url('https://cdn.demos.pixelgrade.com/wp-content/uploads/sites/5/2014/05/three-col-1.jpg');
+    width: 100%;
+    height: 360px;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+   }
+
+   .three_img_block_text_1 {
+     color: rgb(197, 157, 95);
+     font-size: 100px;
+     font-family: 'Dancing Script', cursive;
+     
+   }
+
+   .three_img_block_text_2 {
+     font-size: 47px;
+     color: white;
+     font-family: 'Roboto, "Helvetica Neue", sans-serif';
+     font-weight: 900;
+     letter-spacing: 9.4px;
+     margin-top: -30px;
+   }
+
+   .three_img_block {
+     text-align: center;
+     vertical-align: middle;
+     padding-top: 49px;
+      }
+
+
+      .grid_Text {
+        height: 450px;
+        width: 100%;
+        margin-top: 40px;
+        padding-left: 30px;
+
+      }
+
+    .grid_container {
+      display: grid;
+      grid-template-columns: auto auto;
+      grid-gap: 10px;
+    }
+
+    .grid_container img {
+     height: 196px;
+     width: 270px;
+    }
+
+    .blend {
+      background-image: url('https://cdn.demos.pixelgrade.com/wp-content/uploads/sites/5/2014/05/frontpage-menu.jpg');
+      height: 405px;
+      width: 100%;
+      background-position: center;
+      background-size: cover;
+      background-attachment: fixed;
+    }
+
+    .vertical_image1_0 {
+    background-image: url('https://cdn.demos.pixelgrade.com/wp-content/uploads/sites/5/2014/05/bacon-1-400x600.jpg');
+    background-position: center;
+    width: 40%;
+    height: 100%;
+    display: inline-block;
+    margin-left: 25px;
+    background-size: cover;
+  }
+  .vertical_image2_0 {
+    background-image: url('https://cdn.demos.pixelgrade.com/wp-content/uploads/sites/5/2014/05/bacon-2-400x600.jpg');
+    background-position: center;
+    width: 40%;
+    height: 100%;
+    display: inline-block;
+    margin-left: 15px;
+    background-size: cover;
+  }

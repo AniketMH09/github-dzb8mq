@@ -1,0 +1,19 @@
+<div class="row">
+  <div class="col-sm-4" *ngFor="let item of food_items">
+    <a>
+    <div class="card">
+      <img src="{{item.image_src}}" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">{{item.title}}</h5>
+        <p class="card-text">{{item.contains}}</p>
+        <hr>
+        <span class="price"> ₹{{item.price}}</span>
+        <button class="btn" id = "{{item.id}}" (click)='addtoCart(item)'>ADD TO CART</button>
+      </div>
+    </div>
+    </a>
+  </div>
+  
+  
+ 
+</div>

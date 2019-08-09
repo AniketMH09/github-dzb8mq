@@ -1,0 +1,41 @@
+<div class="main_page_class">
+   <div class="home">
+      <app-navbar [value] = 4></app-navbar>
+      <div class="brand_name">
+        <div class="brand_name_welcome">Your</div>
+        <div class="brand_name_contain_name">CART</div>
+      </div>
+   </div>
+
+   <div class="main_table">
+     <table class="table" *ngIf = '!emptyCart'>
+  <thead>
+    <tr>
+      <th scope="col"></th>
+      <th scope="col">Product</th>
+      <th scope="col">Price</th>
+      <th scope="col">Quantity</th>
+      
+      <th scope="col"></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor='let item of cart_data' >
+      <td><img class="cart_img" src="{{item.image_src}}"></td>     
+      <td>{{item.title}}</td>
+      <td>₹{{item.price}}</td>
+      <td><input type="number"  value="{{item.quantity}}" (change)="chnageQuan(item,$event);" class="cart_input" min="1" max="10"></td>
+      <td><button type="button" class="btn btn-link cancle" (click)='delet(item)'>X</button></td>
+    </tr>
+    <tr><td></td><td class="total">TOTAL</td><td class="total">₹{{total}}</td><td></td><td><button type="button" class="btn btn-dark">UPDATE CART</button></td></tr>
+  </tbody>
+</table>
+   </div>
+  
+  <div class="empty_cart" *ngIf = 'emptyCart'>
+    <div class="empty_cart_text">Your cart is currently empty.</div>
+    <a><button type="button" class="btn btn-dark empty_cart_button">RETUN TO SHOP</button></a>
+  </div>
+
+
+</div>    
