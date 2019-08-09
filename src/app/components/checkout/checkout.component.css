@@ -39,3 +39,10 @@
     padding-left: 80px;
     padding-right: 80px;
   }
+
+  .required {
+    color: red;
+    font-weight: 700;
+    border: 0!important;
+    text-decoration: none;
+  }
