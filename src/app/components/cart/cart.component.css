@@ -58,6 +58,7 @@
     margin-top: 70px;
     padding-left: 160px;
     padding-right: 160px;
+    margin-bottom: 80px;
     
   }
 
@@ -115,6 +116,7 @@
  .empty_cart {
    padding-left: 160px;
     padding-right: 160px;
+    margin-bottom: 80px;
  }
 
  .total {
